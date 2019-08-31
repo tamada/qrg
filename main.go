@@ -98,14 +98,12 @@ func concat(args []string) string {
 }
 
 func toCorrectionLevel(level string) qr.ErrorCorrectionLevel {
-	if level == "L" {
-		return qr.L
-	} else if level == "M" {
+	var mapper = map[string]qr.ErrorCorrectionLevel{"L": qr.L, "M": qr.M, "Q": qr.Q, "H": qr.H}
+	var v, ok = mapper[level]
+	if !ok {
 		return qr.M
-	} else if level == "Q" {
-		return qr.Q
 	}
-	return qr.H
+	return v
 }
 
 func generateCode(content string, opts *options) (barcode.Barcode, error) {
