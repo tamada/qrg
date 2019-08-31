@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.com/tamada/qrg.svg?branch=master)](https://travis-ci.com/tamada/qrg)
-[![Coverage Status](https://coveralls.io/repos/github/tamada/qrg/badge.svg?branch=master)](https://coveralls.io/github/tamada/qrg?branch=master)
 [![codebeat badge](https://codebeat.co/badges/9aea5795-9f10-4dc2-b63b-d4e12f3aed3f)](https://codebeat.co/projects/github-com-tamada-qrg-master)
 [![License](https://img.shields.io/badge/License-WTFPL-blue.svg)](https://github.com/tamada/qrg/blob/master/LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0-yellowgreen.svg)](https://github.com/tamada/qrg/releases/tag/v1.0.0)
